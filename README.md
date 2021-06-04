@@ -8,9 +8,10 @@
 
 ### 安装命令
 
-```bash
+#### Go version < 1.16
+GO111MODULE=on go get github.com/xialeistudio/go-general-uploader
+#### Go 1.16+
 go install github.com/xialeistudio/go-general-uploader
-```
 
 ### 初次执行(自动生成配置模板)
 
